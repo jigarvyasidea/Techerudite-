@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - Techerudite Company Portal</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #121212; /* Dark background */
+            color: white; /* Text color */
+        }
+
+        h1 {
+            font-size: 3em; /* Large heading */
+            background: linear-gradient(to right, #ff6b08, #cf23cf); /* Gradient text */
+            -webkit-background-clip: text; /* Clip background to text */
+            -webkit-text-fill-color: transparent; /* Make text fill transparent */
+            text-align: center; /* Center the heading */
+            margin-bottom: 40px; /* Space below the heading */
+        }
+
+        .button-container {
+            display: flex;
+            flex-direction: column;
+            gap: 20px; /* Space between buttons */
+        }
+
+        button {
+            padding: 15px 30px; /* Button padding */
+            background-color: #ff6b08; /* Button color */
+            border: none;
+            border-radius: 5px; /* Rounded corners for button */
+            color: white; /* Button text color */
+            font-size: 1.2em; /* Button font size */
+            cursor: pointer; /* Pointer cursor on hover */
+            transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+        }
+
+        button:hover {
+            background-color: #cf23cf; /* Darker shade on hover */
+        }
+    </style>
+</head>
+<body>
+    <h1>Techerudite TASK</h1>
+    <div class="button-container">
+        <a href="/customer-register">
+            <button>Customer Register</button>
+        </a>
+        <a href="/admin-register">
+            <button>Admin Register</button>
+        </a>
+        <a href="/admin-login">
+            <button>Admin Login</button>
+        </a>
+    </div>
+</body>
+</html>
