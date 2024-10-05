@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-Welcome to the **My Auth Project**, a robust authentication system designed to manage user registrations for both customers and administrators. This project serves as an excellent demonstration of my skills in full-stack development, including database management, user authentication, and email verification. Built using **Node.js** for the backend and **React** for the frontend, this application showcases my ability to create secure, user-friendly web applications.
+Welcome to the **My Auth Project**, a robust authentication system designed to manage user registrations for both customers and administrators. This project serves as an excellent demonstration of my skills in full-stack development, including database management, user authentication, and email verification. Built using **Node.js** for the backend  this application showcases my ability to create secure, user-friendly web applications.
 
 ## Key Features
 
